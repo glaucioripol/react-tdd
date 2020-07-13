@@ -49,3 +49,15 @@
 ## Instalando lint - 11 porque esta com bug/ validar se corrigiu
 
 * `yarn add -D eslint eslint-config-standard-with-typescript@11 eslint-plugin-import eslint-plugin-promise eslint-plugin-standard @typescript-eslint/eslint-plugin eslint-plugin-node`
+
+## Coibir commits com falhas
+
+* verifica se o commit esta validado com o conventional commits 
+  + `yarn add -D git-commit-msg-linter`
+* `yarn add -D lint-staged husky`
+  + lint-staged
+
+    - Executa scripts nos arquivos do projeto em stage do git(exemplo: lint, testes unitarios e etc.)
+  + husky - em conjunto com lint-stage
+
+    - ele faz um hook com o git para acionar o lint staged para validar e formatar o código
