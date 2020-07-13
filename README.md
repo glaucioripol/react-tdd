@@ -61,3 +61,4 @@
   + husky - em conjunto com lint-stage
 
     - ele faz um hook com o git para acionar o lint staged para validar e formatar o código
+
