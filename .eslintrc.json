@@ -4,6 +4,7 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "@typescript-eslint/consistent-type-definitions": "off" //para deixar usar interface e types
+    "@typescript-eslint/consistent-type-definitions": "off", //para deixar usar interface e types
+    "@typescript-eslint/camelcase": "off"
   }
 }
