@@ -1,0 +1,12 @@
+{
+  "name": "code-course-tdd-react",
+  "version": "1.0.0",
+  "description": "## mudar configurações do git para o usuario atual logado - melhor prática",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
