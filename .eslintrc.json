@@ -5,6 +5,7 @@
   },
   "rules": {
     "@typescript-eslint/consistent-type-definitions": "off", //para deixar usar interface e types
-    "@typescript-eslint/camelcase": "off"
+    "@typescript-eslint/camelcase": "off",
+    "space-before-function-paren": "off"
   }
 }

@@ -77,3 +77,7 @@
 
 * main layer -> camada principal da aplicação
   + factories, injeção de dependencias e etc
+
+## Tests
+
+* spy -> entidade com valores mockados e carrega variaveis auxiliares para o teste
