@@ -62,3 +62,18 @@
 
     - ele faz um hook com o git para acionar o lint staged para validar e formatar o código
 
+## Clean Architecture
+
+* domain -> camada de negocios da aplicação em interfaces
+  + autenticação
+
+* data layer -> aplica as interfaces
+
+* infra -> implementações dos data layers
+
+* presentation -> componentes visuais
+
+* validadation -> validações de dados da presentation 
+
+* main layer -> camada principal da aplicação
+  + factories, injeção de dependencias e etc
