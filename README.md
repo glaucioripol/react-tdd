@@ -83,3 +83,5 @@
 * spy -> entidade com valores mockados e carrega variaveis auxiliares para o teste
 
 * faker -> lib para mock da dados aleatorios
+
+## generics
