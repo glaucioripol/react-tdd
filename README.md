@@ -87,3 +87,8 @@
 ## generics
 
 * pode receber varios
+
+## instalando web pack
+
+* comando "yarn add -D webpack webpack-cli webpack-dev-server"
+
