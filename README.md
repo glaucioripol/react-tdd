@@ -90,13 +90,16 @@
 
 ## instalando web pack
 
-* comando "yarn add -D webpack webpack-cli webpack-dev-server"
+* comando `yarn add -D webpack webpack-cli webpack-dev-server`
 
 * criar arquivo webpack.config.js na raiz do projeto
 
 * plugin auxiliar do webpack, recomendado
 
-  + yarn add -D clean-webpack-plugin
+  + `yarn add -D clean-webpack-plugin`
 
     
 * script do package `"start": "webpack-dev-server --open"`
+
+## configurando sass no webpack
+* comando `yarn add -D node-sass sass-loader css-loader style-loader ts-loader`
