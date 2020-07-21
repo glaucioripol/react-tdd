@@ -85,3 +85,5 @@
 * faker -> lib para mock da dados aleatorios
 
 ## generics
+
+* pode receber varios
