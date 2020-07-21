@@ -92,3 +92,11 @@
 
 * comando "yarn add -D webpack webpack-cli webpack-dev-server"
 
+* criar arquivo webpack.config.js na raiz do projeto
+
+* plugin auxiliar do webpack, recomendado
+
+  + yarn add -D clean-webpack-plugin
+
+    
+* script do package `"start": "webpack-dev-server --open"`
