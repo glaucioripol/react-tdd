@@ -5,20 +5,21 @@ module.exports = {
   mode: 'development',
   entry: './src/main/index.tsx',
   output: {
-    path: path.resolve(__dirname, 'public/js'),
+    path: path.join(__dirname, 'public/js'),
     publicPath: '/public/js',
     filename: 'bundle.js'
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', 'scss'],
     alias: {
-      '~': path.resolve(__dirname, 'src')
+      '~': path.join(__dirname, 'src')
     }
   },
   module: {
     rules: [
       {
-        test: /\.ts{x?}$/,
+        // test: /\.ts{x?}$/,
+        test: /\.(ts|tsx)$/,
         loader: 'ts-loader',
         exclude: /node_modules/
       },
@@ -44,7 +45,7 @@ module.exports = {
   },
   externals: { // para não adicionar no bundle
     react: 'React',
-    'react-dom': 'ReactDom'
+    'react-dom': 'ReactDOM'
   },
   plugins: [
     new CleanWebpackPlugin()
