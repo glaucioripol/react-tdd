@@ -2,7 +2,7 @@ import React, { FormEvent } from 'react'
 
 import Styles from './styles.scss'
 
-import { Spinner, Logo } from '~/presentation/components'
+import { Spinner, LoginHeader, Footer } from '~/presentation/components'
 
 export const Login: React.FC = () => {
   function handleSubmit(e: FormEvent): void {
@@ -10,12 +10,8 @@ export const Login: React.FC = () => {
   }
   return (
     <div className={Styles.login}>
-      <header className={Styles.header}>
-        <Logo />
 
-        <h1>4Dev - Enquetes para programadores</h1>
-
-      </header>
+      <LoginHeader />
 
       <form onSubmit={handleSubmit} className={Styles.form}>
         <h2>Login</h2>
@@ -55,7 +51,7 @@ export const Login: React.FC = () => {
 
       </form>
 
-      <footer className={Styles.footer} />
+      <Footer />
     </div >
   )
 }
