@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-import { Login } from '~/presentation/pages'
+import { Router } from '~/presentation/router'
 
 ReactDom.render(
-  <Login />,
+  <Router />,
   document.querySelector('#main')
 )

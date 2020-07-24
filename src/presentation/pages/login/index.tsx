@@ -2,12 +2,7 @@ import React, { FormEvent } from 'react'
 
 import Styles from './styles.scss'
 
-import {
-  LoginHeader,
-  Footer,
-  Input,
-  FormStatus
-} from '~/presentation/components'
+import { LoginHeader, Footer, Input, FormStatus } from '~/presentation/components'
 
 export const Login: React.FC = () => {
   function handleSubmit(e: FormEvent): void {
