@@ -58,26 +58,6 @@ button {
       text-transform: uppercase;
     }
 
-    .inputWrap {
-      display: flex;
-      margin: 1rem 0 0;
-      position: relative;
-
-      input {
-        flex-grow: 1;
-      }
-
-      .status {
-        // position absolute respeita o primeiro pai que tenha posição relative ou absolute
-        // no caso o inputWrap
-        position: absolute;
-        top: 0.8rem;
-        right: 0.5rem;
-        font-size: 12px;
-        cursor: help;
-      }
-    }
-
     .submit {
       margin: 2rem 0 0;
     }
