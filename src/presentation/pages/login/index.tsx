@@ -2,7 +2,12 @@ import React, { FormEvent } from 'react'
 
 import Styles from './styles.scss'
 
-import { Spinner, LoginHeader, Footer, Input } from '~/presentation/components'
+import {
+  LoginHeader,
+  Footer,
+  Input,
+  FormStatus
+} from '~/presentation/components'
 
 export const Login: React.FC = () => {
   function handleSubmit(e: FormEvent): void {
@@ -24,12 +29,8 @@ export const Login: React.FC = () => {
 
         <span className={Styles.link}>Criar conta</span>
 
-        <div className={Styles.errorWrap}>
-          <Spinner className={Styles.spinner} />
-          <span className={Styles.error}>
-            Erro
-          </span>
-        </div>
+        <FormStatus loading />
+
       </form>
       <Footer />
     </div >
